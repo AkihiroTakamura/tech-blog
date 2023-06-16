@@ -152,7 +152,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.86.1"
+          hugo-version: "0.113.0"
           extended: true
 
       - name: Build
@@ -167,3 +167,11 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           commit_message: ${{ github.event.head_commit.message }}
 ```
+
+この状態で git push すると Github Action によって build が実行される
+
+## github pages の公開設定
+
+repository の settings -> Pages を選択してブランチを設定して公開
+
+![image](https://i.imgur.com/ldgvkuc.png)
