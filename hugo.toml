@@ -4,7 +4,7 @@ languageName = 'Japanese'
 defaultContentLanguage = 'ja'
 hasCJKLanguage = true
 title = 'ゆるふわブログ'
-theme = 'ananke'
+theme = 'mainroad'
 
 [params]
   text_color = 'dark-gray'
