@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://AkihiroTakamura.github.io/tech-blog'
 languageCode = 'ja'
 languageName = 'Japanese'
 defaultContentLanguage = 'ja'
