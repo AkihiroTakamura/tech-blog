@@ -1,0 +1,18 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ja'
+languageName = 'Japanese'
+defaultContentLanguage = 'ja'
+hasCJKLanguage = true
+title = 'ゆるふわブログ'
+theme = 'ananke'
+
+[params]
+  text_color = 'dark-gray'
+  background_color_class = 'bg-navy'
+  author = 'Akihiro Takamura'
+  favicon = '/images/profile.png'
+  site_logo = '/images/profile.png'
+
+[[params.ananke_socials]]
+  name = 'twitter'
+  url  = 'https://twitter.com/rinda2001'
