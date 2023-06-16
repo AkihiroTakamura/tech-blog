@@ -172,6 +172,8 @@ jobs:
 
 ## github pages の公開設定
 
-repository の settings -> Pages を選択してブランチを設定して公開
+repository の settings -> Pages -> Build and deployment
 
-![image](https://i.imgur.com/ldgvkuc.png)
+Source を `GitHub Actions` に変更
+
+![image](https://i.imgur.com/HWLIITS.png)
