@@ -1,0 +1,58 @@
+{
+  "name": "hugo-blog",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "terminal.integrated.defaultProfile.mac": {
+          "path": "/bin/bash"
+        },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.defaultProfile.windows": "bash",
+        "files.exclude": {
+          "**/*.map": true,
+          "**/.next": true,
+          "**/cdk.out": true,
+          "**/build": true,
+          "**/node_modules": true
+        },
+        "files.watcherExclude": {
+          "**/*.map": true,
+          "**/.next": true,
+          "**/cdk.out": true,
+          "**/build": true,
+          "**/node_modules": true,
+          "**/.git/objects/**": true,
+          "**/.git/subtree-cache/**": true,
+          "**/node_modules/*/**": true
+        },
+        "workbench.colorCustomizations": {
+          "activityBar.background": "#0c0c4b",
+          "titleBar.activeBackground": "#0c0c4b",
+          "titleBar.activeForeground": "#F3FDF3"
+        }
+      },
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "vscodeshift.material-ui-snippets",
+        "naumovs.color-highlight",
+        "amazonwebservices.aws-toolkit-vscode"
+      ]
+    }
+  },
+  "remoteUser": "dev"
+}

@@ -1,18 +1,96 @@
-baseURL = 'https://AkihiroTakamura.github.io/tech-blog'
+baseURL = 'https://akihirotakamura.github.io/tech-blog'
+title = 'ゆるふわえっくす'
 languageCode = 'ja'
+paginate = '10'
+theme = 'mainroad'
 languageName = 'Japanese'
 defaultContentLanguage = 'ja'
 hasCJKLanguage = true
-title = 'ゆるふわブログ'
-theme = 'mainroad'
+googleAnalytics = 'G-CX1D0DSCQH'
 
-[params]
+[Author]
+  name = 'Akihiro Takamura'
+  bio = 'エンジニア界のドクターＸになりたい一般人'
+  avatar = 'images/profile.png'
+
+[Params]
+  description = '感じるな、考えろ'
+  copyright = 'Akihiro Takamura'
+  opengraph = true
+  scheme = true
+  twitter_cards = true
+  readmore = true
+  authorbox = true
+  toc = false  # 記事内の目次
+  pager = true
+  #post_meta = ['author', 'date', 'categories', 'translations']
+  post_meta = ['date', 'categories']
+  mainSections = ["post", "blog", "news"]
+  dateformat = "2006/01/02"
+  mathjax = true
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  googleFontsLink = 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Zen+Kurenaido&display=swap'
+  customCss = ['css/custom.css', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css']
+
+  # Adjust summary length
+  summaryLength = 120
   text_color = 'dark-gray'
   background_color_class = 'bg-navy'
   author = 'Akihiro Takamura'
   favicon = '/images/profile.png'
   site_logo = '/images/profile.png'
 
-[[params.ananke_socials]]
-  name = 'twitter'
-  url  = 'https://twitter.com/rinda2001'
+[Params.style.vars]
+  highlightColor = '#001e3c'
+  fontFamilyPrimary = "'Noto Sans JP', 'Open Sans', Helvetica, Arial, sans-serif"
+  fontFamilySecondary = "'Noto Sans JP', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  title = "ゆるふわえっくす"
+  subtitle = "感じるな、考えろ"
+
+[Params.thumbnail]
+  visibility = ["list", "post"] 
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = true
+  widgets = ["recent", "categories", "taglist", "social", "twitter",]
+
+[Params.widgets]
+  recent_num = 5
+  categories_counter = true
+  tags_counter = true
+
+[Params.widgets.social]
+  cached = false 
+  #facebook = "username"
+  twitter = "rinda2001"
+  #instagram = "username"
+  #linkedin = "username"
+  #telegram = "username"
+  github = "AkihiroTakamura"
+  #gitlab = "username"
+  #bitbucket = "username"
+  #email = "example@example.com""
+
+[[Params.widgets.social.custom]]
+  title = 'Qiita'
+  url = 'https://qiita.com/AkihiroTakamura'
+
+[[Menus.main]]
+  name = "Top"
+  url = "/"
+  weight = 1
+
+[[Menus.main]]
+  name = "Posts"
+  url = "/post"
+  weight = 2
+
+
+[[Menus.footer]]
+  name = "Privacy Policy"
+  url = "/privacy/"

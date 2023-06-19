@@ -1,0 +1,133 @@
+body {
+  /* custom font */
+  font-family: "Noto Sans JP", sans-serif;
+
+  /* background pattern */
+  background-color: #ececf7;
+  opacity: 0.9;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #bcd7ea,
+    #bcd7ea 1px,
+    #ececf7 1px,
+    #ececf7
+  );
+
+  /* custom */
+  font-size: 1em;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.logo__title,
+.logo__tagline {
+  font-family: "Zen Kurenaido", sans-serif;
+  color: #001e3c;
+}
+
+.logo__tagline {
+  border-top-style: none;
+}
+
+.menu,
+.menu__list {
+  background-color: #001e3c;
+}
+
+/* header decoration */
+.post:not(.list__item) h2:after,
+.post:not(.list__item) h3:after,
+.post:not(.list__item) h4:after,
+.post:not(.list__item) h5:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, #001e3c, #bcd7ea);
+  background: linear-gradient(to right, #001e3c, #bcd7ea);
+}
+
+.post:not(.list__item) h3:after {
+  height: 3px;
+}
+
+.post:not(.list__item) h4:after {
+  height: 2px;
+}
+
+.post:not(.list__item) h5:after {
+  height: 1px;
+}
+
+/* sns share buttons */
+.sns_parent {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.sns_section {
+  display: inline-block;
+  text-align: left;
+}
+.sns_button {
+  float: left;
+  box-shadow: inset 0 0 0 2px #42464c;
+  border-radius: 100%;
+  -moz-transition: all 280ms ease;
+  -o-transition: all 280ms ease;
+  -webkit-transition: all 280ms ease;
+  transition: all 280ms ease;
+}
+.sns_button a {
+  display: table-cell;
+  width: 44px;
+  height: 44px;
+  color: #42464c;
+  text-align: center;
+  vertical-align: middle;
+  -moz-transition: all 280ms ease;
+  -o-transition: all 280ms ease;
+  -webkit-transition: all 280ms ease;
+  transition: all 280ms ease;
+}
+.sns_button i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.sns_button:hover {
+  box-shadow: inset 0 0 0 22px #eaeaea;
+}
+
+.sns_button + .sns_button {
+  margin: 0 0 0 12px;
+}
+
+.twitter:hover a {
+  color: #1b95e0;
+}
+
+.facebook:hover a {
+  color: #3b5999;
+}
+
+.google:hover a {
+  color: #dd4b39;
+}
+
+.instagram:hover a {
+  color: #2b5c84;
+}
+
+.pocket:hover a {
+  color: #ee4056;
+}
+
+.hatena:hover a {
+  color: #4ba3d9;
+}
+
+.fa-hatena:before {
+  content: "B!";
+  font-family: Verdana;
+  font-weight: bold;
+}
