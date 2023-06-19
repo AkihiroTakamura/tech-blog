@@ -15,5 +15,6 @@ services:
     volumes:
       - ..:/workspace:delegated
       - $HOME$USERPROFILE/.aws:/home/dev/.aws
+      - $HOME$USERPROFILE/.ssh:/home/dev/.ssh
 
     tty: true

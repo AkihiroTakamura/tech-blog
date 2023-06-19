@@ -7,6 +7,7 @@ languageName = 'Japanese'
 defaultContentLanguage = 'ja'
 hasCJKLanguage = true
 googleAnalytics = 'G-CX1D0DSCQH'
+enableRobotsTXT = true
 
 [Author]
   name = 'Akihiro Takamura'
@@ -17,6 +18,7 @@ googleAnalytics = 'G-CX1D0DSCQH'
   description = '感じるな、考えろ'
   copyright = 'Akihiro Takamura'
   opengraph = true
+  images = ["http://dummyimage.com/500x250/001e3c/fff.gif&text=ゆるふわえっくす"]
   scheme = true
   twitter_cards = true
   readmore = true
@@ -25,21 +27,22 @@ googleAnalytics = 'G-CX1D0DSCQH'
   pager = true
   #post_meta = ['author', 'date', 'categories', 'translations']
   post_meta = ['date', 'categories']
-  mainSections = ["post", "blog", "news"]
+  mainSections = ["tech", "talk", "news"]
   dateformat = "2006/01/02"
   mathjax = true
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
   googleFontsLink = 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Zen+Kurenaido&display=swap'
   customCss = ['css/custom.css', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css']
-
-  # Adjust summary length
   summaryLength = 120
   text_color = 'dark-gray'
   background_color_class = 'bg-navy'
   author = 'Akihiro Takamura'
-  favicon = '/images/profile.png'
-  site_logo = '/images/profile.png'
+  favicon = 'favicon.ico'
+  site_logo = 'http://dummyimage.com/500x250/001e3c/fff.gif&text=ゆるふわえっくす'
+
+  # custom
+  amazonJpAffiliate = 'tryerror0d-22'
 
 [Params.style.vars]
   highlightColor = '#001e3c'
@@ -51,7 +54,7 @@ googleAnalytics = 'G-CX1D0DSCQH'
   subtitle = "感じるな、考えろ"
 
 [Params.thumbnail]
-  visibility = ["list", "post"] 
+  visibility = ["list"] 
 
 [Params.sidebar]
   home = "right"
@@ -86,10 +89,19 @@ googleAnalytics = 'G-CX1D0DSCQH'
   weight = 1
 
 [[Menus.main]]
-  name = "Posts"
-  url = "/post"
+  name = "NEWS"
+  url = "/categories/news"
   weight = 2
 
+[[Menus.main]]
+  name = "TECH"
+  url = "/categories/tech"
+  weight = 3
+
+[[Menus.main]]
+  name = "TALK"
+  url = "/categories/talk"
+  weight = 4
 
 [[Menus.footer]]
   name = "Privacy Policy"
