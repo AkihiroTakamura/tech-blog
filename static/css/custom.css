@@ -9,7 +9,7 @@ body {
 
   /* custom */
   font-size: 1em;
-  line-height: 2;
+  line-height: 1.8;
   word-wrap: break-word;
 }
 
@@ -47,25 +47,12 @@ h6 {
 }
 
 /* header decoration */
-.post:not(.list__item) h2:after,
-.post:not(.list__item) h3:after,
-.post:not(.list__item) h4:after {
+.post:not(.list__item) h2:after {
   content: '';
   display: block;
   background: -webkit-linear-gradient(to right, #001e3c, #bcd7ea);
   background: linear-gradient(to right, #001e3c, #bcd7ea);
-}
-
-.post:not(.list__item) h2:after {
-  height: 2px;
-}
-
-.post:not(.list__item) h3:after {
   height: 1px;
-}
-
-.post:not(.list__item) h4:after {
-  height: 0.5px;
 }
 
 .post:not(.list__item) h2,

@@ -18,7 +18,7 @@ enableRobotsTXT = true
   description = '感じるな、考えろ'
   copyright = 'Akihiro Takamura'
   opengraph = true
-  images = ["http://dummyimage.com/500x250/001e3c/fff.gif&text=ゆるふわえっくす"]
+  images = ['images/logo.png']
   scheme = true
   twitter_cards = true
   readmore = true
