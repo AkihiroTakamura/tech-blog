@@ -1,0 +1,22 @@
+{
+  "printWidth": 80,
+  "singleQuote": true,
+  "semi": false,
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
+  "jsxSingleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.md", "README"],
+      "options": {
+        "parser": "markdown-nocjsp"
+      }
+    },
+    {
+      "files": "*.mdx",
+      "options": {
+        "parser": "mdx-nocjsp"
+      }
+    }
+  ]
+}

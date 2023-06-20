@@ -41,7 +41,8 @@
           "activityBar.background": "#0c0c4b",
           "titleBar.activeBackground": "#0c0c4b",
           "titleBar.activeForeground": "#F3FDF3"
-        }
+        },
+        "prettier.prettierPath": "./node_modules/prettier"
       },
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
@@ -54,5 +55,6 @@
       ]
     }
   },
+  "postCreateCommand": "npm i",
   "remoteUser": "dev"
 }

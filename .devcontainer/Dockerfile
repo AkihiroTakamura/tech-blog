@@ -4,6 +4,7 @@ ARG BUILDARCH
 
 RUN apt-get update
 RUN apt-get install -y wget unzip git fontconfig vim python3-distutils curl build-essential
+RUN apt-get install -y xclip
 
 # lang
 RUN apt-get install -y language-pack-ja-base language-pack-ja locales sudo
