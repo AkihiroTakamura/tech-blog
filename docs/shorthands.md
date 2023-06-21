@@ -15,3 +15,15 @@ javascript:(function(){var a=document.getElementById("productTitle").textContent
 ```
 {{< amazon asin="B08TBJ4YTM" title="Dell U4021QW 39.7インチ 曲面 大型モニター ディスプレイ (3年間無輝点交換保証/WUHD/IPS 非光沢 5K2K/Thunderbolt 3 DisplayPort HDMI x2/高さ 傾き調整/sRGB 100% Rec.709 100% DCI-P3 98%/LANポート(RJ45)/スピーカー)" >}}
 ```
+
+# external link
+
+```
+{{< external "https://akihirotakamura.github.io/tech-blog" >}}
+```
+
+# table of contents
+
+```
+{{< toc >}}
+```
