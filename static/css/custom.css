@@ -192,3 +192,33 @@ code {
   display: inline;
   vertical-align: text-bottom;
 }
+
+/* toc */
+
+.toc {
+  font-weight: 100;
+  font-size: 0.75em;
+  color: #7a8288;
+}
+
+@media (min-width: 767px) {
+  .sidebar-toc {
+    width: 250px;
+  }
+
+  .sidebar-toc > div {
+    position: sticky;
+    top: 30px;
+  }
+
+  .sidebar-toc .toc__menu {
+    max-height: 450px;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 766px) {
+  .sidebar-toc {
+    display: none;
+  }
+}
