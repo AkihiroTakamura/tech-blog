@@ -33,7 +33,7 @@ enableRobotsTXT = true
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
   googleFontsLink = 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Zen+Kurenaido&display=swap'
-  customCss = ['css/custom.css', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css']
+  customCss = ['css/custom.css', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css', 'css/syntax.css']
   summaryLength = 120
   text_color = 'dark-gray'
   background_color_class = 'bg-navy'
