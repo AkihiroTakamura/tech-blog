@@ -106,3 +106,19 @@ enableRobotsTXT = true
 [[Menus.footer]]
   name = "Privacy Policy"
   url = "/privacy/"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
