@@ -4,7 +4,7 @@ body {
 
   /* background pattern */
   opacity: 1;
-  background-image: radial-gradient(#001e3c 1.6px, #ffffffdb 1.6px);
+  /* background-image: radial-gradient(#001e3c 1.6px, #ffffffdb 1.6px); */
   background-size: 4px 4px;
 
   /* custom */
